@@ -1,0 +1,32 @@
+/* body{
+    background-color: lightcoral;
+    margin: 10%;
+    border: lightgreen;
+    padding: 10%;
+} */
+#tablecontainar {
+    background-color: lightpink;
+    width: 50%;
+}
+#tablecontainar
+{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+#tablecontainar th
+{ 
+   
+    background-color: #F7F7F7;
+    color: #333;
+    font-weight: bold;
+}
+#tablecontainar th, #tablecontainar td
+{ 
+    border:solid;
+    padding: 5px;
+    border-color: #ccc;
+}
+#bodyId{
+    background-color: rgb(132, 164, 190);
+    text-align: center;
+}
