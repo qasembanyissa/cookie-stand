@@ -216,8 +216,3 @@ var seattle = {
                         liE5.textContent=`${hourForDay} : number of cookie in Tokyo ${Tokyo.numOfCookiesTok}  `;
                     }
                     liE5.textContent=`Total is : ${Lima.total}`;
-
-
-
-
-
