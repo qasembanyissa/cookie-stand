@@ -117,8 +117,8 @@ var seattle = {
                     
                     
                 }
-                seattle.avOfCx()
-// Lima City
+                Paris.avOfCx()
+                // Lima City
                 var Lima = {
                     names : "Lima",
                     max : 65,
@@ -139,17 +139,18 @@ var seattle = {
                         console.log(this.numOfCxLim);
                         console.log(this.numOfCookiesLim);
                         return this.total,this.numOfCookiesLim;
-                         
-                         
-                            
-                        }
+                        
                         
                         
                     }
-                    Lima.avOfCx()
-                    var elE1=document.getElementById('bodyId');
-                    var art1=document.createElement('article');
-                    elE1.appendChild(art1);
+                    
+                    
+                }
+                Lima.avOfCx()
+                
+                var elE1=document.getElementById('bodyId');
+                var art1=document.createElement('article');
+                elE1.appendChild(art1);
                     var par1= document.createElement('p');
                     art1.appendChild(par1);
                     par1.textContent='Seattle';
@@ -158,8 +159,8 @@ var seattle = {
                     for(var i=0; i<hourForDay.length;i++){
                         var liE1=document.createElement('li');
                         ulE1.appendChild(liE1);
-                        liE1.textContent=`${hourForDay} : number of cookie in seattle ${seattle.numOfCookies}  `;
-
+                        liE1.textContent=`${hourForDay} : number of cookie in seattle ${seattle.numOfCookies[i]}`;
+                        
                     }
                     liE1.textContent=`Total is : ${seattle.total}`;
                     // now for Tokyo
@@ -172,12 +173,12 @@ var seattle = {
                     for(var i=0 ; i< hourForDay.length;i++){
                         var liE2 =document.createElement('li');
                         ulE2.appendChild(liE2);
-                        liE2.textContent=`${hourForDay} : number of cookie in Tokyo ${Tokyo.numOfCookiesTok}  `;
+                        liE2.textContent=`${hourForDay} : number of cookie in Tokyo ${Tokyo.numOfCookiesTok[i]}  `;
                     }
                     liE2.textContent=`Total is : ${Tokyo.total}`;
-
+                    
                     // now for Dubai
-
+                    
                     var ParE2 = document.createElement('p');
                     art1.appendChild(ParE2);
                     ParE2.textContent=' Dubai ';
@@ -186,10 +187,10 @@ var seattle = {
                     for(var i=0 ; i< hourForDay.length;i++){
                         var liE3 =document.createElement('li');
                         ulE3.appendChild(liE3);
-                        liE3.textContent=`${hourForDay} : number of cookie in Tokyo ${Tokyo.numOfCookiesTok}  `;
+                        liE3.textContent=`${hourForDay} : number of cookie in Tokyo ${Tokyo.numOfCookiesTok[i]}  `;
                     }
                     liE3.textContent=`Total is : ${Dubai.total}`;
-
+                    
                     // now for Paris
                     var ParE3 = document.createElement('p');
                     art1.appendChild(ParE3);
@@ -199,12 +200,12 @@ var seattle = {
                     for(var i=0 ; i< hourForDay.length;i++){
                         var liE4 =document.createElement('li');
                         ulE4.appendChild(liE4);
-                        liE4.textContent=`${hourForDay} : number of cookie in Tokyo ${Tokyo.numOfCookiesTok}  `;
+                        liE4.textContent=`${hourForDay} : number of cookie in Tokyo ${Tokyo.numOfCookiesTok[i]}  `;
                     }
                     liE4.textContent=`Total is : ${Paris.total}`;
-
+                    
                     // for Lima
-
+                    
                     var ParE4 = document.createElement('p');
                     art1.appendChild(ParE4);
                     ParE4.textContent=' Lima ';
@@ -213,11 +214,7 @@ var seattle = {
                     for(var i=0 ; i< hourForDay.length;i++){
                         var liE5 =document.createElement('li');
                         ulE5.appendChild(liE5);
-                        liE5.textContent=`${hourForDay} : number of cookie in Tokyo ${Tokyo.numOfCookiesTok}  `;
+                        liE5.textContent=`${hourForDay} : number of cookie in Tokyo ${Tokyo.numOfCookiesTok[i]}  `;
                     }
                     liE5.textContent=`Total is : ${Lima.total}`;
-
-
-
-
-
+                    
