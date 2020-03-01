@@ -1,28 +1,26 @@
-
- #body{
-    background-color: rgb(88, 207, 207);
-  }
-  #sales-1{
-     color: rgb(33, 15, 46);
-     text-shadow: rgb(204, 12, 12);
-     border-style: outset;
-     border-radius: 50px;
+#body{
+  background-color: rgb(88, 207, 207);
+}
+#sales-1{
+   color: rgb(33, 15, 46);
+   text-shadow: rgb(204, 12, 12);
+   border-style: outset;
+   border-radius: 50px;
 /* margin: 20%;      */
-  }
-  a{
-     margin: 100px;
-     padding: 1%;
-  }
-  .column {
-   float: left;
-   width: 31.33%;
-   padding: 5px;
- }
- 
- /* Clear floats after image containers */
- .row::after {
-   content: "";
-   clear: both;
-   display: table;
- }
- 
+}
+a{
+   margin: 100px;
+   padding: 1%;
+}
+.column {
+ float: left;
+ width: 31.33%;
+ padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+ content: "";
+ clear: both;
+ display: table;
+}
